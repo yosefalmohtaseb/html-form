@@ -1,0 +1,16 @@
+.left-login {
+  width: 45%;
+}
+.right-login {
+  width: 55%;
+}
+.login-l-u {
+}
+.login-l-d {
+  display: flex;
+  justify-content: space-between;
+}
+.log-img {
+  width: 336px;
+  height: 418px;
+}

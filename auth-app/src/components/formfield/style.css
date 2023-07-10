@@ -1,0 +1,10 @@
+.f-i {
+  width: 426px;
+  height: 64px;
+  border-radius: 6px;
+  border: 1px solid #8692a6;
+}
+.main-f-f {
+    display: flex;
+    flex-direction: column;
+}

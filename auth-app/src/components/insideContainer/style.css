@@ -1,0 +1,10 @@
+.inside-container{
+    display: flex;
+    width:58%;
+    height: auto;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    overflow-y: auto;
+    justify-content: center;
+}

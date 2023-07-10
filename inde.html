@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer and Stopwatch</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="toggle-btns">
+    <button id="timer-btn" onclick="showTimer()">Show Timer</button>
+    <button id="stopwatch-btn" onclick="showStopwatch()">Show Stopwatch</button>
+  </div>
+
+  <div class="timer" id="timer" style="display: block;">
+    <h1>Timer</h1>
+    <div id="timer-display">00:00:00</div>
+    <button id="start-timer-btn">Start</button>
+    <button id="stop-timer-btn">Stop</button>
+    <button id="reset-timer-btn">Reset</button>
+  </div>
+
+  <div class="stopwatch" id="stopwatch" style="display: none;">
+    <h1>Stopwatch</h1>
+    <div id="stopwatch-display">00:00:00</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

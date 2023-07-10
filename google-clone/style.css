@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    width: 80%;
+    background-color: red;
+
+}
+header nav  {
+    display: flex;
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  main img {
+    height: 40px;
+  }
+  
+  main input[type="text"] {
+    width: 400px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  main button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  /* Add more styles as needed */
+  
